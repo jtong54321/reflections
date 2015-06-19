@@ -21,3 +21,10 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	
 	The code from both branches is combined into one branch.  To indicate that there were 2 different paths of changes involved.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros: Less files to compare manually.  Faster
+	
+	Cons: Have to compare conflicts and resolve them.
+	
