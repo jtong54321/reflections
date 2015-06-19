@@ -9,3 +9,7 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 
 	If you have several files modified, you can add just the one file you wish to commit to the staging area and then commit.  The staging area allows for control of how many files you want committed at a particular time.
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When trying out new experimental features. It allows you to try the changes without worrying about reverting back to the original since it is tracked and easily done.
