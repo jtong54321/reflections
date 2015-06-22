@@ -28,3 +28,24 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges ma
 	
 	Cons: Have to compare conflicts and resolve them.
 	
+Commands:
+
+git init			Make an existing directory into a Git repository
+git add <filename>		Add a file to the staging area
+git commit			Commit the files from the staging area to the repository 
+git status			Show which files are in the staging area, and which files from the working directory are not part of the repository    
+git diff			Git diff without arguments is comparing the working directory with the staging area
+git diff --staged		Compare the staging area with the repository
+git diff <id1> <id2>		Compare differences between commit with id1 with id2
+git reset <filename>		Remove filename from the staging area			
+git reset --hard		Undo all changes! There is no rollback for this, so be carefull!
+git checkout master		Restore the "Head" to the latest check-in (this will be part of a later lesson/module)
+git log --graph --oneline <branch1> <branch2>	Show a visual representation of the commit history within different branches
+git checkout -b <new_branch_name>	Creates a new branch and do a checkout on this branch in one call instead of git branch new_branch_name and git checkout new_branch_name
+git merge <branch1> <branch2>		Merge two branches, branch2 gets merged into branch1
+git merge --abort		Abort merging process and restore files to state before merge.
+git branch			Show the existing branch labels		
+git branch -d <name>		Remove the branch with the specified name
+git show <commitId>		Show the changes made in this commit compared to the previous version. This is working even after merging.
+git gc				Run Git garbage collection. This will remove unreachable commits. 
+	
